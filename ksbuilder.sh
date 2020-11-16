@@ -263,10 +263,10 @@ function Write_KS () {
 	fi 
 
 	if [[ $city = "kc" ]]; then
-		svn export http://svn.graybar.com/svn/UnixSA/linux/kickstart/KC_CIS-RHEL7.cfg /var/www/html/pub/$name.cfg
+		svn export http://svn.changeme.com/svn/UnixSA/linux/kickstart/KC_CIS-RHEL7.cfg /var/www/html/pub/$name.cfg
 		
 	elif [[ $city = "stl" ]]; then
-		svn export http://svn.graybar.com/svn/UnixSA/linux/kickstart/STL_CIS-RHEL7.cfg /var/www/html/pub/$name.cfg
+		svn export http://svn.changeme.com/svn/UnixSA/linux/kickstart/STL_CIS-RHEL7.cfg /var/www/html/pub/$name.cfg
 		mv ./STL_CIS-RHEL7.cfg ./$name.cfg
 	fi
 #Write network information to Named KS file
