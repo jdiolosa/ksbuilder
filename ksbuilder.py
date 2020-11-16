@@ -223,11 +223,11 @@ def write_KS():
         print("Please Verify All minimum settings")
 
     elif city =="kc":
-        run_command("svn export http://svn.graybar.com/svn/UnixSA/linux/kickstart/KC_CIS-RHEL7.cfg /var/www/html/pub/" + name + ".cfg")
+        run_command("svn export http://svn.changeme.com/svn/UnixSA/linux/kickstart/KC_CIS-RHEL7.cfg /var/www/html/pub/" + name + ".cfg")
         
         
     elif city =="stl":
-         run_command("svn export http://svn.graybar.com/svn/UnixSA/linux/kickstart/STL_CIS-RHEL7.cfg /var/www/html/pub/"+ name+ ".cfg")    
+         run_command("svn export http://svn.changeme.com/svn/UnixSA/linux/kickstart/STL_CIS-RHEL7.cfg /var/www/html/pub/"+ name+ ".cfg")    
         
 
     #write network information to named KS file
